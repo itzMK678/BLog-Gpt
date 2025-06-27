@@ -1,0 +1,57 @@
+
+.login-page h1 ,.register-page h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+.login-page ,.register-page {
+  height: 100vh; 
+  width: 100vw;
+  display: flex;
+  align-items: center;   
+  justify-content: center; 
+  background-color: #f0f4f8; 
+  color: black;
+}
+
+#login-box , #register-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
+input {
+  margin: 10px;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  padding-top: 5px;
+  background-color: transparent;
+  color: black;
+}
+
+button {
+  margin: 8px;
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+   padding-top: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

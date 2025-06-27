@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.bar{
+   display: flex;
+   
+}
+.Navbar{
+     background: linear-gradient(to right, #7f7df3, #5f50f6);
+     height:100%;
+    
+     left: 0%;
+     width: 200px;
+}
+.Navbar a{
+   margin-bottom: 5px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    background: linear-gradient(to right, #6d6bf5, #4c3df4);
+}
