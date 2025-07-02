@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Main-page.css';
-import { useTitle } from "./titleContext";
+import { useTitle } from "./TitleContext";
 import { GoogleGenAI } from "@google/genai";
 import Blog from './Blog'; 
 import Navbar from './Navbar';

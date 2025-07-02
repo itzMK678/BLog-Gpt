@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Blog.css'; // Import your styles
 import { GoogleGenAI } from "@google/genai";
-import { useTitle } from './titleContext';
+import { useTitle } from './TitleContext';
  // Assuming you have a Navbar component
 
 const Blog = () => {
