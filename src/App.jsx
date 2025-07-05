@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-
+import { Toaster } from "react-hot-toast";
 import LoginPage from './Components/LoginPage';
 import RegisterPage from './Components/RegisterPage';
 import MainPage from './Components/Main-page';
@@ -11,6 +11,8 @@ function App() {
 
   return (
     <BrowserRouter>
+      <Toaster position="top-center" reverseOrder={false} />
+      
       <Routes>
         <Route
           path="/"
@@ -26,6 +28,7 @@ function App() {
         <Route path="/login" element={<LoginPage onLogin={() => setIsLoggedIn(true)} />} />
         <Route path="/main" element={<MainPage />} />
         <Route path="/history" element={<History />} />
+
       </Routes>
     </BrowserRouter>
   );
